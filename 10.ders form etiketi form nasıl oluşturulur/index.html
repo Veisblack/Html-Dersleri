@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--
+        -----form kullanımı-----
+        <input type: text>
+        <input type: password>
+        input type:email>
+        input type: checkbox
+        input type: radio
+        input type:file
+        input type:reset
+        input type:submit
+        textarea id:w3review name:w3review rows:4 cols:50
+        select option
+      NOT <br> alt satıra geç anlamına sahip
+    -->
+    
+    <form action="gönder.php">
+        <input type="text" placeholder="kullanıcı adı"/>
+        <input type="password" placeholder="şifreniz"/>
+        <input type="email" placeholder="email adress"/> <br>
+        motosiklet sürüyorum<input type="checkbox"> <br>
+        üniversite okuyorum<input type="checkbox"> <br> <br>
+        Kadın <input type="radio" name="cinsiyet"> <br>
+        Erkek <input type="radio" name="cinsiyet"> <br>
+        Dosya seçiniz : <input type="file"> <br> <br>
+        Seçiniz:
+        <select>
+          <option value="Cici bebe">Cici bebe</option>
+          <option value="Sütlaç">Kahve</option>
+          <option value="Serkan">Serkan</option>
+        </select> <br>
+        <textarea name="mesajInput" id="mesajAlani" cols="60" rows="10"></textarea> <br>
+        <input type="submit" value="Gönder">
+        <input type="reset" value="temizle">
+  
+      </form>
+</body>
+</html>
